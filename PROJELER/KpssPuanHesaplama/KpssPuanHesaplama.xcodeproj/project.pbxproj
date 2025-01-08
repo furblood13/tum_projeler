@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DA9DD312CAADE5100A77BFC /* KpssPuanHesaplamaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9DD302CAADE5100A77BFC /* KpssPuanHesaplamaApp.swift */; };
+		0DA9DD352CAADE5200A77BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA9DD342CAADE5200A77BFC /* Assets.xcassets */; };
+		0DA9DD382CAADE5200A77BFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA9DD372CAADE5200A77BFC /* Preview Assets.xcassets */; };
+		0DA9DD3F2CAADED100A77BFC /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9DD3E2CAADED100A77BFC /* RootView.swift */; };
+		0DA9DD422CAADF5800A77BFC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9DD412CAADF5800A77BFC /* MainView.swift */; };
+		0DA9DD442CAADFA400A77BFC /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9DD432CAADFA400A77BFC /* ResultView.swift */; };
+		0DAEB9262CB09073004F580A /* SonucView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAEB9252CB09073004F580A /* SonucView.swift */; };
+		0DAEB9292CB3079D004F580A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAEB9282CB3079D004F580A /* Constants.swift */; };
+		0DAEB92C2CB31302004F580A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAEB92B2CB31302004F580A /* Result.swift */; };
+		0DAEB92F2CB46522004F580A /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 0DAEB92E2CB46522004F580A /* GoogleMobileAds */; };
+		0DAEB9352CB46AA0004F580A /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAEB9342CB46AA0004F580A /* BannerView.swift */; };
+		0DAEB9392CB470F9004F580A /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAEB9382CB470F9004F580A /* BannerViewController.swift */; };
+		0DAEB93B2CB47B30004F580A /* adCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAEB93A2CB47B30004F580A /* adCoordinator.swift */; };
+		0DB8416F2CAAEAC4007DD757 /* OrtaogretimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB8416E2CAAEAC4007DD757 /* OrtaogretimView.swift */; };
+		0DB841712CAAEAD4007DD757 /* OnlisansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB841702CAAEAD4007DD757 /* OnlisansView.swift */; };
+		0DB841752CAAEAF7007DD757 /* LisansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB841742CAAEAF7007DD757 /* LisansView.swift */; };
+		0DB841772CAAEB10007DD757 /* EgitimBilimleriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB841762CAAEB10007DD757 /* EgitimBilimleriView.swift */; };
+		0DB841792CAAEB23007DD757 /* OABTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB841782CAAEB23007DD757 /* OABTView.swift */; };
+		0DB8417E2CAAF8F3007DD757 /* HesaplaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB8417D2CAAF8F3007DD757 /* HesaplaButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DA9DD2D2CAADE5100A77BFC /* KpssPuanHesaplama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KpssPuanHesaplama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DA9DD302CAADE5100A77BFC /* KpssPuanHesaplamaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KpssPuanHesaplamaApp.swift; sourceTree = "<group>"; };
+		0DA9DD342CAADE5200A77BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DA9DD372CAADE5200A77BFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0DA9DD3E2CAADED100A77BFC /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		0DA9DD412CAADF5800A77BFC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0DA9DD432CAADFA400A77BFC /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		0DAEB9252CB09073004F580A /* SonucView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucView.swift; sourceTree = "<group>"; };
+		0DAEB9282CB3079D004F580A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0DAEB92B2CB31302004F580A /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		0DAEB9302CB4659E004F580A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0DAEB9342CB46AA0004F580A /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		0DAEB9382CB470F9004F580A /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		0DAEB93A2CB47B30004F580A /* adCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adCoordinator.swift; sourceTree = "<group>"; };
+		0DB8416E2CAAEAC4007DD757 /* OrtaogretimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrtaogretimView.swift; sourceTree = "<group>"; };
+		0DB841702CAAEAD4007DD757 /* OnlisansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlisansView.swift; sourceTree = "<group>"; };
+		0DB841742CAAEAF7007DD757 /* LisansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LisansView.swift; sourceTree = "<group>"; };
+		0DB841762CAAEB10007DD757 /* EgitimBilimleriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgitimBilimleriView.swift; sourceTree = "<group>"; };
+		0DB841782CAAEB23007DD757 /* OABTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OABTView.swift; sourceTree = "<group>"; };
+		0DB8417D2CAAF8F3007DD757 /* HesaplaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HesaplaButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DA9DD2A2CAADE5100A77BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAEB92F2CB46522004F580A /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DA9DD242CAADE5100A77BFC = {
+			isa = PBXGroup;
+			children = (
+				0DA9DD2F2CAADE5100A77BFC /* KpssPuanHesaplama */,
+				0DA9DD2E2CAADE5100A77BFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DA9DD2E2CAADE5100A77BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DA9DD2D2CAADE5100A77BFC /* KpssPuanHesaplama.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DA9DD2F2CAADE5100A77BFC /* KpssPuanHesaplama */ = {
+			isa = PBXGroup;
+			children = (
+				0DAEB9312CB469E2004F580A /* admob */,
+				0DAEB9302CB4659E004F580A /* Info.plist */,
+				0DAEB92A2CB312F7004F580A /* Model */,
+				0DB8417C2CAAF8C8007DD757 /* SharedViews */,
+				0DA9DD402CAADF2600A77BFC /* Views */,
+				0DA9DD302CAADE5100A77BFC /* KpssPuanHesaplamaApp.swift */,
+				0DA9DD342CAADE5200A77BFC /* Assets.xcassets */,
+				0DA9DD362CAADE5200A77BFC /* Preview Content */,
+			);
+			path = KpssPuanHesaplama;
+			sourceTree = "<group>";
+		};
+		0DA9DD362CAADE5200A77BFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0DA9DD372CAADE5200A77BFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0DA9DD402CAADF2600A77BFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0DAEB9272CB3077D004F580A /* Helpers */,
+				0DA9DD3E2CAADED100A77BFC /* RootView.swift */,
+				0DA9DD412CAADF5800A77BFC /* MainView.swift */,
+				0DA9DD432CAADFA400A77BFC /* ResultView.swift */,
+				0DB8416E2CAAEAC4007DD757 /* OrtaogretimView.swift */,
+				0DB841702CAAEAD4007DD757 /* OnlisansView.swift */,
+				0DB841742CAAEAF7007DD757 /* LisansView.swift */,
+				0DB841762CAAEB10007DD757 /* EgitimBilimleriView.swift */,
+				0DB841782CAAEB23007DD757 /* OABTView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0DAEB9272CB3077D004F580A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0DAEB9282CB3079D004F580A /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0DAEB92A2CB312F7004F580A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0DAEB92B2CB31302004F580A /* Result.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0DAEB9312CB469E2004F580A /* admob */ = {
+			isa = PBXGroup;
+			children = (
+				0DAEB9342CB46AA0004F580A /* BannerView.swift */,
+				0DAEB9382CB470F9004F580A /* BannerViewController.swift */,
+				0DAEB93A2CB47B30004F580A /* adCoordinator.swift */,
+			);
+			path = admob;
+			sourceTree = "<group>";
+		};
+		0DB8417C2CAAF8C8007DD757 /* SharedViews */ = {
+			isa = PBXGroup;
+			children = (
+				0DB8417D2CAAF8F3007DD757 /* HesaplaButton.swift */,
+				0DAEB9252CB09073004F580A /* SonucView.swift */,
+			);
+			path = SharedViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DA9DD2C2CAADE5100A77BFC /* KpssPuanHesaplama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DA9DD3B2CAADE5200A77BFC /* Build configuration list for PBXNativeTarget "KpssPuanHesaplama" */;
+			buildPhases = (
+				0DA9DD292CAADE5100A77BFC /* Sources */,
+				0DA9DD2A2CAADE5100A77BFC /* Frameworks */,
+				0DA9DD2B2CAADE5100A77BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KpssPuanHesaplama;
+			packageProductDependencies = (
+				0DAEB92E2CB46522004F580A /* GoogleMobileAds */,
+			);
+			productName = KpssPuanHesaplama;
+			productReference = 0DA9DD2D2CAADE5100A77BFC /* KpssPuanHesaplama.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DA9DD252CAADE5100A77BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0DA9DD2C2CAADE5100A77BFC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 0DA9DD282CAADE5100A77BFC /* Build configuration list for PBXProject "KpssPuanHesaplama" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = tr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				tr,
+			);
+			mainGroup = 0DA9DD242CAADE5100A77BFC;
+			packageReferences = (
+				0DAEB92D2CB46522004F580A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			productRefGroup = 0DA9DD2E2CAADE5100A77BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DA9DD2C2CAADE5100A77BFC /* KpssPuanHesaplama */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DA9DD2B2CAADE5100A77BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DA9DD382CAADE5200A77BFC /* Preview Assets.xcassets in Resources */,
+				0DA9DD352CAADE5200A77BFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DA9DD292CAADE5100A77BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAEB9392CB470F9004F580A /* BannerViewController.swift in Sources */,
+				0DAEB9352CB46AA0004F580A /* BannerView.swift in Sources */,
+				0DB8417E2CAAF8F3007DD757 /* HesaplaButton.swift in Sources */,
+				0DAEB92C2CB31302004F580A /* Result.swift in Sources */,
+				0DB841752CAAEAF7007DD757 /* LisansView.swift in Sources */,
+				0DA9DD3F2CAADED100A77BFC /* RootView.swift in Sources */,
+				0DB8416F2CAAEAC4007DD757 /* OrtaogretimView.swift in Sources */,
+				0DAEB93B2CB47B30004F580A /* adCoordinator.swift in Sources */,
+				0DA9DD442CAADFA400A77BFC /* ResultView.swift in Sources */,
+				0DB841712CAAEAD4007DD757 /* OnlisansView.swift in Sources */,
+				0DA9DD422CAADF5800A77BFC /* MainView.swift in Sources */,
+				0DA9DD312CAADE5100A77BFC /* KpssPuanHesaplamaApp.swift in Sources */,
+				0DB841772CAAEB10007DD757 /* EgitimBilimleriView.swift in Sources */,
+				0DB841792CAAEB23007DD757 /* OABTView.swift in Sources */,
+				0DAEB9262CB09073004F580A /* SonucView.swift in Sources */,
+				0DAEB9292CB3079D004F580A /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0DA9DD392CAADE5200A77BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DA9DD3A2CAADE5200A77BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DA9DD3C2CAADE5200A77BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KpssPuanHesaplama/Preview Content\"";
+				DEVELOPMENT_TEAM = 3K48VR45XU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KpssPuanHesaplama/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Daha iyi bir deneyim için kişileştirilmiş reklamlara izin verin";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fbk.KpssPuanHesaplama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DA9DD3D2CAADE5200A77BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KpssPuanHesaplama/Preview Content\"";
+				DEVELOPMENT_TEAM = 3K48VR45XU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KpssPuanHesaplama/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Daha iyi bir deneyim için kişileştirilmiş reklamlara izin verin";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fbk.KpssPuanHesaplama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DA9DD282CAADE5100A77BFC /* Build configuration list for PBXProject "KpssPuanHesaplama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DA9DD392CAADE5200A77BFC /* Debug */,
+				0DA9DD3A2CAADE5200A77BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DA9DD3B2CAADE5200A77BFC /* Build configuration list for PBXNativeTarget "KpssPuanHesaplama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DA9DD3C2CAADE5200A77BFC /* Debug */,
+				0DA9DD3D2CAADE5200A77BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0DAEB92D2CB46522004F580A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0DAEB92E2CB46522004F580A /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DAEB92D2CB46522004F580A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0DA9DD252CAADE5100A77BFC /* Project object */;
+}

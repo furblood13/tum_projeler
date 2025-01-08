@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D5E6F312C7D0AE2005A0132 /* TurkeyApp0_1SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E6F302C7D0AE2005A0132 /* TurkeyApp0_1SwiftApp.swift */; };
+		0D5E6F332C7D0AE2005A0132 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E6F322C7D0AE2005A0132 /* ContentView.swift */; };
+		0D5E6F352C7D0AE3005A0132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5E6F342C7D0AE3005A0132 /* Assets.xcassets */; };
+		0D5E6F382C7D0AE3005A0132 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5E6F372C7D0AE3005A0132 /* Preview Assets.xcassets */; };
+		0D5E6F3F2C7D0B60005A0132 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E6F3E2C7D0B60005A0132 /* CityModel.swift */; };
+		0D5E6F412C7D0DE0005A0132 /* CitysViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E6F402C7D0DE0005A0132 /* CitysViewModel.swift */; };
+		0D5E6F432C7D147A005A0132 /* CityDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E6F422C7D147A005A0132 /* CityDetailsView.swift */; };
+		0D5E6F452C7E0ABD005A0132 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E6F442C7E0ABD005A0132 /* SearchViewModel.swift */; };
+		0D7B75782D219D0500ED6C57 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7B75772D219D0500ED6C57 /* UploadPostView.swift */; };
+		0D7FEF252D08503400EA8C4E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D7FEF242D08503400EA8C4E /* GoogleService-Info.plist */; };
+		0DA2B7132D07404700BADB2B /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA2B7122D07404700BADB2B /* FavoritesManager.swift */; };
+		0DA2B7152D0740BD00BADB2B /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA2B7142D0740BD00BADB2B /* FavoritesView.swift */; };
+		0DA2B7172D07535E00BADB2B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0DA2B7162D07535E00BADB2B /* FirebaseStorage */; };
+		0DA2B71F2D0762D100BADB2B /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA2B71E2D0762D100BADB2B /* FeedView.swift */; };
+		0DA2B7212D07630C00BADB2B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA2B7202D07630C00BADB2B /* Post.swift */; };
+		0DA2B7232D07633900BADB2B /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA2B7222D07633900BADB2B /* PostViewModel.swift */; };
+		0DA2B7252D07685000BADB2B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0DA2B7242D07685000BADB2B /* FirebaseDatabase */; };
+		0DAAAB112C7F949C0016D49B /* TouristicPlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAAAB102C7F949C0016D49B /* TouristicPlacesView.swift */; };
+		0DB986C02D063C55004E0A4F /* Rview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB986BF2D063C55004E0A4F /* Rview.swift */; };
+		0DB986C22D06416C004E0A4F /* Hview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB986C12D06416C004E0A4F /* Hview.swift */; };
+		0DC8443B2CCFE15F0077216A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0DC8443A2CCFE15F0077216A /* FirebaseAuth */; };
+		0DC8443D2CCFE15F0077216A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0DC8443C2CCFE15F0077216A /* FirebaseFirestore */; };
+		0DC844432CCFF3F20077216A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC844422CCFF3F20077216A /* SignUpView.swift */; };
+		0DC844452CCFF59A0077216A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC844442CCFF59A0077216A /* LoginView.swift */; };
+		0DC844472CD00A650077216A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC844462CD00A650077216A /* AuthManager.swift */; };
+		0DCB31282D19804F00EAA4C3 /* AIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCB31272D19804F00EAA4C3 /* AIView.swift */; };
+		0DCB312A2D19809C00EAA4C3 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCB31292D19809C00EAA4C3 /* APIKey.swift */; };
+		0DCB312D2D1980F700EAA4C3 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 0DCB312C2D1980F700EAA4C3 /* GoogleGenerativeAI */; };
+		0DCB312F2D1981A900EAA4C3 /* AIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCB312E2D1981A900EAA4C3 /* AIViewModel.swift */; };
+		0DCB31312D19829800EAA4C3 /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DCB31302D19829800EAA4C3 /* GenerativeAI-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D5E6F2D2C7D0AE2005A0132 /* TurkeyApp0.1Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurkeyApp0.1Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5E6F302C7D0AE2005A0132 /* TurkeyApp0_1SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurkeyApp0_1SwiftApp.swift; sourceTree = "<group>"; };
+		0D5E6F322C7D0AE2005A0132 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D5E6F342C7D0AE3005A0132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D5E6F372C7D0AE3005A0132 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D5E6F3E2C7D0B60005A0132 /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		0D5E6F402C7D0DE0005A0132 /* CitysViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitysViewModel.swift; sourceTree = "<group>"; };
+		0D5E6F422C7D147A005A0132 /* CityDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailsView.swift; sourceTree = "<group>"; };
+		0D5E6F442C7E0ABD005A0132 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		0D7B75772D219D0500ED6C57 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
+		0D7FEF242D08503400EA8C4E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0DA2B7122D07404700BADB2B /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
+		0DA2B7142D0740BD00BADB2B /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		0DA2B71E2D0762D100BADB2B /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		0DA2B7202D07630C00BADB2B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0DA2B7222D07633900BADB2B /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		0DAAAB102C7F949C0016D49B /* TouristicPlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristicPlacesView.swift; sourceTree = "<group>"; };
+		0DB986BF2D063C55004E0A4F /* Rview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rview.swift; sourceTree = "<group>"; };
+		0DB986C12D06416C004E0A4F /* Hview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hview.swift; sourceTree = "<group>"; };
+		0DC844422CCFF3F20077216A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		0DC844442CCFF59A0077216A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0DC844462CD00A650077216A /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		0DCB31272D19804F00EAA4C3 /* AIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIView.swift; sourceTree = "<group>"; };
+		0DCB31292D19809C00EAA4C3 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		0DCB312E2D1981A900EAA4C3 /* AIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIViewModel.swift; sourceTree = "<group>"; };
+		0DCB31302D19829800EAA4C3 /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D5E6F2A2C7D0AE2005A0132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCB312D2D1980F700EAA4C3 /* GoogleGenerativeAI in Frameworks */,
+				0DC8443B2CCFE15F0077216A /* FirebaseAuth in Frameworks */,
+				0DC8443D2CCFE15F0077216A /* FirebaseFirestore in Frameworks */,
+				0DA2B7252D07685000BADB2B /* FirebaseDatabase in Frameworks */,
+				0DA2B7172D07535E00BADB2B /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D5E6F242C7D0AE2005A0132 = {
+			isa = PBXGroup;
+			children = (
+				0DCB31302D19829800EAA4C3 /* GenerativeAI-Info.plist */,
+				0D5E6F2F2C7D0AE2005A0132 /* TurkeyApp0.1Swift */,
+				0D5E6F2E2C7D0AE2005A0132 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D5E6F2E2C7D0AE2005A0132 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D5E6F2D2C7D0AE2005A0132 /* TurkeyApp0.1Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D5E6F2F2C7D0AE2005A0132 /* TurkeyApp0.1Swift */ = {
+			isa = PBXGroup;
+			children = (
+				0D5E6F302C7D0AE2005A0132 /* TurkeyApp0_1SwiftApp.swift */,
+				0D5E6F322C7D0AE2005A0132 /* ContentView.swift */,
+				0DAAAB102C7F949C0016D49B /* TouristicPlacesView.swift */,
+				0D5E6F422C7D147A005A0132 /* CityDetailsView.swift */,
+				0D5E6F442C7E0ABD005A0132 /* SearchViewModel.swift */,
+				0D7FEF242D08503400EA8C4E /* GoogleService-Info.plist */,
+				0D5E6F402C7D0DE0005A0132 /* CitysViewModel.swift */,
+				0D5E6F3E2C7D0B60005A0132 /* CityModel.swift */,
+				0D5E6F342C7D0AE3005A0132 /* Assets.xcassets */,
+				0D5E6F362C7D0AE3005A0132 /* Preview Content */,
+				0DC844422CCFF3F20077216A /* SignUpView.swift */,
+				0DC844442CCFF59A0077216A /* LoginView.swift */,
+				0DC844462CD00A650077216A /* AuthManager.swift */,
+				0DB986BF2D063C55004E0A4F /* Rview.swift */,
+				0DB986C12D06416C004E0A4F /* Hview.swift */,
+				0DA2B7122D07404700BADB2B /* FavoritesManager.swift */,
+				0DA2B7142D0740BD00BADB2B /* FavoritesView.swift */,
+				0DA2B71E2D0762D100BADB2B /* FeedView.swift */,
+				0DA2B7202D07630C00BADB2B /* Post.swift */,
+				0DA2B7222D07633900BADB2B /* PostViewModel.swift */,
+				0DCB31272D19804F00EAA4C3 /* AIView.swift */,
+				0DCB31292D19809C00EAA4C3 /* APIKey.swift */,
+				0DCB312E2D1981A900EAA4C3 /* AIViewModel.swift */,
+				0D7B75772D219D0500ED6C57 /* UploadPostView.swift */,
+			);
+			path = TurkeyApp0.1Swift;
+			sourceTree = "<group>";
+		};
+		0D5E6F362C7D0AE3005A0132 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0D5E6F372C7D0AE3005A0132 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D5E6F2C2C7D0AE2005A0132 /* TurkeyApp0.1Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D5E6F3B2C7D0AE3005A0132 /* Build configuration list for PBXNativeTarget "TurkeyApp0.1Swift" */;
+			buildPhases = (
+				0D5E6F292C7D0AE2005A0132 /* Sources */,
+				0D5E6F2A2C7D0AE2005A0132 /* Frameworks */,
+				0D5E6F2B2C7D0AE2005A0132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurkeyApp0.1Swift;
+			packageProductDependencies = (
+				0DC8443A2CCFE15F0077216A /* FirebaseAuth */,
+				0DC8443C2CCFE15F0077216A /* FirebaseFirestore */,
+				0DA2B7162D07535E00BADB2B /* FirebaseStorage */,
+				0DA2B7242D07685000BADB2B /* FirebaseDatabase */,
+				0DCB312C2D1980F700EAA4C3 /* GoogleGenerativeAI */,
+			);
+			productName = TurkeyApp0.1Swift;
+			productReference = 0D5E6F2D2C7D0AE2005A0132 /* TurkeyApp0.1Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D5E6F252C7D0AE2005A0132 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0D5E6F2C2C7D0AE2005A0132 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 0D5E6F282C7D0AE2005A0132 /* Build configuration list for PBXProject "TurkeyApp0.1Swift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D5E6F242C7D0AE2005A0132;
+			packageReferences = (
+				0DC844392CCFE15F0077216A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				0DCB312B2D1980F600EAA4C3 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
+			productRefGroup = 0D5E6F2E2C7D0AE2005A0132 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D5E6F2C2C7D0AE2005A0132 /* TurkeyApp0.1Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D5E6F2B2C7D0AE2005A0132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5E6F382C7D0AE3005A0132 /* Preview Assets.xcassets in Resources */,
+				0D7FEF252D08503400EA8C4E /* GoogleService-Info.plist in Resources */,
+				0DCB31312D19829800EAA4C3 /* GenerativeAI-Info.plist in Resources */,
+				0D5E6F352C7D0AE3005A0132 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D5E6F292C7D0AE2005A0132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5E6F452C7E0ABD005A0132 /* SearchViewModel.swift in Sources */,
+				0DCB312A2D19809C00EAA4C3 /* APIKey.swift in Sources */,
+				0D5E6F432C7D147A005A0132 /* CityDetailsView.swift in Sources */,
+				0D5E6F332C7D0AE2005A0132 /* ContentView.swift in Sources */,
+				0DC844452CCFF59A0077216A /* LoginView.swift in Sources */,
+				0DA2B7152D0740BD00BADB2B /* FavoritesView.swift in Sources */,
+				0D5E6F312C7D0AE2005A0132 /* TurkeyApp0_1SwiftApp.swift in Sources */,
+				0DA2B7232D07633900BADB2B /* PostViewModel.swift in Sources */,
+				0DB986C22D06416C004E0A4F /* Hview.swift in Sources */,
+				0D5E6F3F2C7D0B60005A0132 /* CityModel.swift in Sources */,
+				0D5E6F412C7D0DE0005A0132 /* CitysViewModel.swift in Sources */,
+				0DCB31282D19804F00EAA4C3 /* AIView.swift in Sources */,
+				0DC844432CCFF3F20077216A /* SignUpView.swift in Sources */,
+				0DA2B71F2D0762D100BADB2B /* FeedView.swift in Sources */,
+				0DA2B7212D07630C00BADB2B /* Post.swift in Sources */,
+				0DAAAB112C7F949C0016D49B /* TouristicPlacesView.swift in Sources */,
+				0D7B75782D219D0500ED6C57 /* UploadPostView.swift in Sources */,
+				0DC844472CD00A650077216A /* AuthManager.swift in Sources */,
+				0DA2B7132D07404700BADB2B /* FavoritesManager.swift in Sources */,
+				0DCB312F2D1981A900EAA4C3 /* AIViewModel.swift in Sources */,
+				0DB986C02D063C55004E0A4F /* Rview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D5E6F392C7D0AE3005A0132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D5E6F3A2C7D0AE3005A0132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D5E6F3C2C7D0AE3005A0132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TurkeyApp0.1Swift/Preview Content\"";
+				DEVELOPMENT_TEAM = 3K48VR45XU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fbk.TurkeyApp0-1Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D5E6F3D2C7D0AE3005A0132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TurkeyApp0.1Swift/Preview Content\"";
+				DEVELOPMENT_TEAM = 3K48VR45XU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fbk.TurkeyApp0-1Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D5E6F282C7D0AE2005A0132 /* Build configuration list for PBXProject "TurkeyApp0.1Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5E6F392C7D0AE3005A0132 /* Debug */,
+				0D5E6F3A2C7D0AE3005A0132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D5E6F3B2C7D0AE3005A0132 /* Build configuration list for PBXNativeTarget "TurkeyApp0.1Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5E6F3C2C7D0AE3005A0132 /* Debug */,
+				0D5E6F3D2C7D0AE3005A0132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0DC844392CCFE15F0077216A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.4.0;
+			};
+		};
+		0DCB312B2D1980F600EAA4C3 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0DA2B7162D07535E00BADB2B /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DC844392CCFE15F0077216A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		0DA2B7242D07685000BADB2B /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DC844392CCFE15F0077216A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		0DC8443A2CCFE15F0077216A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DC844392CCFE15F0077216A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0DC8443C2CCFE15F0077216A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DC844392CCFE15F0077216A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		0DCB312C2D1980F700EAA4C3 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DCB312B2D1980F600EAA4C3 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0D5E6F252C7D0AE2005A0132 /* Project object */;
+}
